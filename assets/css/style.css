@@ -296,10 +296,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
+
+
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #1f175e;
+  color: #ffa00a;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -307,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #1f175e;
+  color: #ffa00a;
 }
 
 @media (max-width: 991px) {
@@ -343,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #1f175e;
+  background-color: #1f175e;  
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -359,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #ffa00a;
+  color: #3b2ea2;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -390,6 +392,12 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
