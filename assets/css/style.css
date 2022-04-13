@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #ffa00a;
+  color: #1f175e;
 }
 
 @media (max-width: 991px) {
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #1f175e;  
+  background-color: #ffa00a;  
   overflow-y: auto;
   transition: 0.3s;
 }
