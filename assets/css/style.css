@@ -296,10 +296,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
+
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: #1f175e;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -307,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #1f175e;
 }
 
 @media (max-width: 991px) {
@@ -343,14 +344,14 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #1f175e;
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #222222;
+  color: #ffffff;
 }
 .navbar-mobile > ul > li {
   padding: 0;
@@ -359,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3b2ea2;
+  color: #ffa00a;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -372,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #1f175e;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 .navbar-mobile .dropdown ul li {
@@ -390,6 +391,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
